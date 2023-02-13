@@ -15,12 +15,12 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 function Main(){
   return(
     <div className='container'>
-       {/* <Header/>
+       <Header/>
       <About/>
       <Content />
-      <Footer />  */}
+      <Footer /> 
        {/* <Task />  */}
-      /* <Form /> 
+      {/* /* <Form />  */}
     </div>
   )
 }
