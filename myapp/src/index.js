@@ -5,7 +5,9 @@ import { Header } from './Header/Header';
 import {About} from './About/about'
 import { Footer } from './Footer/footer';
 import {Content} from './Content/content';
-//import Task from './task/task';
+import Form from './form/form';
+
+import Task from './task/task';
 //import App from './App';
 //import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -13,11 +15,12 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 function Main(){
   return(
     <div className='container'>
-       <Header/>
+       {/* <Header/>
       <About/>
       <Content />
-      <Footer /> 
-      {/* <Task /> */}
+      <Footer />  */}
+       {/* <Task />  */}
+      /* <Form /> 
     </div>
   )
 }
